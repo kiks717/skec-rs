@@ -1,0 +1,38 @@
+:root{
+    --font-family : "Work Sans", "Work Sans Placeholder", sans-serif;
+    --subfont: "Gloock", "Gloock Placeholder", serif;
+    --color-text : #dda120;
+    --color-subtext : #f5cb5c;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    --nav-size:60px;
+    --speed:500ms;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-text);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0000;
+  }
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: var(--color-text);
+  text-decoration: none;
+}
+

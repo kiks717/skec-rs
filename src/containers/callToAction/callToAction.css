@@ -1,0 +1,204 @@
+.call-to-action {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  height: min-content; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:5.25em;
+  background-color: #000000;
+  overflow: hidden;
+  flex: 1 0 0px;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 40;
+  }
+  .call-to-action-h1 {
+    flex-shrink: 0;
+    height: auto; /* 168px */
+    white-space: pre;
+    overflow: visible;
+    z-index: 2;
+    flex: 1 0 0px;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family: var(--subfont);
+    /* color: var(--color-text); */
+    color: #FFFFFF;
+    font-size: 4em;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .call-to-action-wrapper {
+    flex-shrink: 0;
+    /* width: 1000px; */
+    height: min-content; /* 175px */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow: visible;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30;
+  }
+  .call-to-action-wrapper input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .call-to-action-wrapper button{
+    background-color: var(--color-text);
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    width: 120px;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .call-to-action-p1{
+        flex-shrink: 0;
+        width: 480px;
+        height: auto; /* 96px */
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        word-break: break-word;
+        max-width: 100%;
+        overflow: visible;
+        z-index: 2;
+        position: relative;
+        font-weight: 400;
+        font-style: normal;
+        font-family: var(--fontfamily);
+        color: var(--color-text);
+        font-size: 1.2em;
+        letter-spacing: 0em;
+        line-height: 1.5;
+        text-align: center;
+  }
+  .decoration-cta {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 570px;
+    height: 299px;
+    display: block;
+    overflow: hidden;
+    opacity: 0.3;
+    transform: rotate(-134deg);
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    border: 1px solid #FFFFFF;
+  }
+  .decoration-cta-line{
+    flex-shrink: 0;
+    width: 336px;
+    height: 337px;
+    display: block;
+    overflow: visible;
+    opacity: 0.3;
+    z-index: 1;
+    aspect-ratio: 0.9966329966329966 / 1;
+    position: relative;
+  }
+  .decoration-cta-line-frame1{
+    width: 296px;
+    height: 1px;
+    display: block;
+    background-color: #ffffff;
+    overflow: hidden;
+    position: absolute;
+  }
+  .decoration-cta-line-frame2{
+    width: 296px;
+    height: 1px;
+    display: block;
+    background-color: #ffffff;
+    overflow: hidden;
+    transform: rotate(60deg);
+    position: absolute;
+  }
+  .decoration-cta-line-frame3{
+    width: 296px;
+    height: 1px;
+    display: block;
+    background-color: #ffffff;
+    overflow: hidden;
+    transform: rotate(30deg);
+    position: absolute;
+  }
+  .decoration-cta-line-frame4{
+    width: 296px;
+    height: 1px;
+    display: block;
+    background-color: #ffffff;
+    overflow: hidden;
+    transform: rotate(-60deg);
+    position: absolute;
+  }
+  .decoration-cta-line-frame5{
+    width: 296px;
+    height: 1px;
+    display: block;
+    background-color: #ffffff;
+    overflow: hidden;
+    transform: rotate(-30deg);
+    position: absolute;
+  }
+  .decoration-cta-line-frame6{
+    width: 296px;
+    height: 1px;
+    display: block;
+    background-color: #ffffff;
+    overflow: hidden;
+    transform: rotate(90deg);
+    position: absolute;
+  }
+  @media only screen and (max-width: 600px) {
+    .call-to-action {
+      flex-direction: column;
+      padding:1.25em;
+      background-color: var(--color-text);
+      overflow: hidden;
+      flex: 1;
+      position: relative;
+      align-content: center;
+      flex-wrap: nowrap;
+      gap: 1em;
+      }
+    .call-to-action-h1 {
+        height: 100%; /* 168px */
+        overflow: visible;
+        color: #ffffff;
+        font-size: 3em;
+        line-height: 1.2;
+      }
+    .call-to-action-p1{
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        z-index: 2;
+        color: #ffffff;
+        font-size: 1.4em;
+        letter-spacing: 0em;
+        line-height: 1.5;
+        text-align: center;
+  }
+  }

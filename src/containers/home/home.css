@@ -1,0 +1,189 @@
+
+ @-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 15%;
+            transform-origin: 50% 15%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+.kenburns-top {
+	-webkit-animation: kenburns-top 17s ease-out both;
+	        animation: kenburns-top 17s ease-out both;
+}
+
+.hero {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    min-height: 900px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    align-content: center;
+    flex-wrap: nowrap;
+    background-attachment: fixed;
+    border-radius: 5px;
+    position: relative;
+    z-index: 0;
+    background-image: url('../../assets//My project.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+
+.text {
+    flex-shrink: 0;
+    height: min-content; /* 389px */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    /* overflow:visible; */
+    flex: 1 0 0px;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 10;
+  }
+  .s-k-e-c {
+    flex-shrink: 0;
+    height: auto; /* 389px */
+    white-space: pre;
+    z-index: 2;
+    flex: 1 0 0px;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family: var(--subfont);
+    color: var(--color-text);
+    font-size:18rem;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    animation: kenburns-top 17s ease-out both;
+  }
+  .decoration1 {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 801px;
+    height: 474px;
+    display: block;
+    overflow: hidden;
+    transform: rotate(-15deg);
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    border: 1px solid #242423;
+    animation: kenburns-top 17s ease-out both;
+  }
+  .decoration2 {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 801px;
+    height: 474px;
+    display: block;
+    overflow: hidden;
+    transform: rotate(144deg);
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    border: 1px solid #242423;
+    animation: kenburns-top 17s ease-out both;
+  }
+  
+  .decoration3 {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 801px;
+    height: 474px;
+    display: block;
+    overflow: hidden;
+    transform: rotate(11deg);
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    border: 1px solid #242423;
+    animation: kenburns-top 17s ease-out both;
+  }
+  .srpski-kripto-edukativni-centar {
+    flex-shrink: 0;
+    height: auto; /* 24px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    flex: 1 0 0px;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 1.7em;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-align: center;
+  }
+  @media only screen and (max-width: 600px){
+    .hero{
+      width: 100%;
+    }
+    .s-k-e-c{
+      font-size: 7em;
+      flex: 0;
+      position: relative;
+      font-weight: 400;
+      font-style: normal;
+      text-transform: uppercase;
+      line-height: 1;
+      text-align: center;
+    }
+    .text{
+      max-width: 599px;
+    }
+    .decoration1{
+      flex-shrink: 0;
+      width: 331px;
+      height: 174px;
+      transform: rotate(-20deg);
+      border-radius: 100%;
+    }
+    .decoration2 {
+      flex-shrink: 0;
+      width: 331px;
+      height: 174px;
+      transform: rotate(-20deg);
+    }
+    .decoration3 {
+      flex-shrink: 0;
+      width: 331px;
+      height: 174px;
+      transform: rotate(18deg);
+    }
+  }

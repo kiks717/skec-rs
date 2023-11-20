@@ -1,0 +1,38 @@
+.App {
+    width: 1200px;
+    height: min-content; /* 2990px */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000000;
+    overflow: hidden;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 0;
+    position: absolute;
+  }
+  .scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+   @-webkit-keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
+    @keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
